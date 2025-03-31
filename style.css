@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* simple css reset*/
+}
+
+body {
+    background-color: #1b2030;
+}
+
+nav {
+    background-color: #778DA9;
+    padding: 25px;
+}
+
+nav ul{
+    justify-content: pace-around;
+}
+
+nav li {
+    justify-content: center;
+    display: inline;
+}
+
+main {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+p{
+    color: #E0E1DD;
+}
