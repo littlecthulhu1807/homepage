@@ -62,6 +62,10 @@ body *{
     text-decoration: none;
 }
 
+.body_element{
+    border-radius: 5px;
+}
+
 .inline_link{
     color: #00FDB6;
 }
