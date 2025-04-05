@@ -42,6 +42,16 @@
     cursor: pointer;
 }
 
+.navbar_link_broken{
+    font-size: 1.5rem;
+    color: #9a0000;
+    text-decoration: none;
+    padding-left: 20px;
+    cursor: pointer;
+    cursor: default;
+    pointer-events: none;
+}
+
 .navbar_link:hover{
     color: #00FDB6;
     transition: 0.2s ease-in;
@@ -52,7 +62,6 @@
 }
 
 
-
 /*Body Segment*/
 body {
     background-color: #0F0F0F;
@@ -60,37 +69,32 @@ body {
 body *{
     color: #fff;
     text-decoration: none;
-}
-
-.body_element{
-    border-radius: 5px;
-}
-
-.inline_link{
-    color: #005B41;
-}
-
-.body_element_h3{
-    color: #005B41;
-    margin-bottom: 15px;
-}
-
-.body_element:hover .inline_link{
-    color: #00FDB6;
-    transition: 0.2s ease-in;
-}
-
-.body_element:hover .body_element_h3{
-    color: #00FDB6;
-    transition: 0.2s ease-in;
+    line-height: 1.5em;
 }
 
 /*Hero*/
+
 .hero_container{
-    margin: 30px;
     padding: 30px;
-    border-radius: 5px;
     background-color: #232D3F;
+
+    border-radius: 15px;
+
+}
+
+.hero_container_border{
+    margin: 30px;
+    padding: 5px; /*~border size*/
+    background-color: #50005C;
+    border-radius: 20px;
+
+    box-shadow: 0 0 40px 5px #CD6EDB;
+}
+
+.hero_container_border:hover{
+    background-color: #CD6EDB;
+    box-shadow: 0 0 60px 10px #CD6EDB;
+    transition: ease 0.8s;
 }
 
 .hero_container *{
@@ -109,11 +113,42 @@ body *{
 
 /*Body*/
 .body_element{
+    border-radius: 5px;
     color: #fff;
     font-size: 1.5rem;
     margin: 30px 15px;
     background-color: #232D3F;
     padding: 20px;
+}
+
+.body_element:hover .inline_link{
+    color: #00FDB6;
+    transition: 0.2s ease-in;
+}
+
+.body_element:hover .body_element_h3{
+    color: #00FDB6;
+    transition: 0.2s ease-in;
+}
+
+.body_element_h3{
+    color: #005B41;
+    margin-bottom: 15px;
+}
+
+.inline_link{
+    color: #005B41;
+}
+
+.linking_container{
+    margin: 15px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.linking_container img{
+    max-height: 60px;
+    max-width: 60px;
 }
 
 /*Footer Segment*/
@@ -144,6 +179,15 @@ body *{
     text-decoration: none;
     padding: 10px 5px;
     cursor: pointer;
+}
+
+.footer_link_broken{
+    font-size: 1rem;
+    color: #9a0000;
+    text-decoration: none;
+    padding: 10px 5px;
+    cursor: default;
+    pointer-events: none;
 }
 
 .footer_link:hover{
