@@ -1,11 +1,11 @@
-/*General*/
+/*------------------------General------------------------------------------*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*Nav Segment*/
+/*-------------------------------------------------------------!!!!!!!!!!!!!!!Nav Segment!!!!!!!!!!!!!!!-----------------------------------------------------*/
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -62,9 +62,10 @@
 }
 
 
-/*Body Segment*/
+/*----------------------------------------------!!!!!!!!!!!!!!!Body Segment!!!!!!!!!!!!!!!------------------------------------------------------*/
 body {
     background-color: #0F0F0F;
+    
 }
 body *{
     color: #fff;
@@ -72,9 +73,10 @@ body *{
     line-height: 1.5em;
 }
 
-/*Hero*/
+/*---------------------------------------------------Hero---------------------------------------------------------*/
 
 .hero_container{
+    text-align: center;
     padding: 30px;
     background-color: #232D3F;
 
@@ -85,15 +87,15 @@ body *{
 .hero_container_border{
     margin: 30px;
     padding: 5px; /*~border size*/
-    background-color: #50005C;
+    background-color: #005B41;
     border-radius: 20px;
 
-    box-shadow: 0 0 40px 5px #CD6EDB;
+    box-shadow: 0 0 40px 5px #00FDB6;
 }
 
 .hero_container_border:hover{
-    background-color: #CD6EDB;
-    box-shadow: 0 0 60px 10px #CD6EDB;
+    background-color: #00FDB6;
+    box-shadow: 0 0 60px 10px #00FDB6;
     transition: ease 0.8s;
 }
 
@@ -111,14 +113,16 @@ body *{
     color: #fff;
 }
 
-/*Body*/
+/*-------------------------------------------Body---------------------------------------------------------*/
 .body_element{
+    width: 80%;
     border-radius: 5px;
     color: #fff;
     font-size: 1.5rem;
-    margin: 30px 15px;
+    margin: 30px auto;
     background-color: #232D3F;
-    padding: 20px;
+    padding: 50px 20px;
+    text-align: center;
 }
 
 .body_element:hover .inline_link{
@@ -151,8 +155,11 @@ body *{
     max-width: 60px;
 }
 
-/*Footer Segment*/
+/*-------------------------------------------Button---------------------------------------------------------*/
+
+/*----------------------------------------------------------!!!!!!!!!!!!!!!Footer Segment!!!!!!!!!!!!!!!--------------------------------------*/
 .footer_container{
+    margin-top: 100px;
     background-color: #232D3F;
     height: 300px;
     display: flex;
